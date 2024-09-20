@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --primary: #2149F4;
+    --secondary: #47B574;
+    --alert: #ff0000;
+    --white: #fff;
+    --black: #000;
+}
+
+
+
+/*header*/
+
+header{
+    display: flex;
+    background-color: var(--primary);
+    justify-content: start;
+    align-items: center;
+    height: 6rem;
+}
+
+header img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 0.5rem;
+}
+
+
+/*main*/
+
+main{
+    background-color: var(--white);
+    min-height: calc(100vh - 10.3rem);
+}
+
+main div a{
+    font-size: 2rem;
+}
+
+/*filme*/
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--alert);
+    font-size: large;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+button a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.bt_add{
+    border: none;
+    width: 242px;
+}
+
+button{
+    background-color:var(--secondary);
+    border: black;
+    border-style:solid;
+    padding: 2px;
+    height: 70px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.add{
+    display: flex;
+    justify-content: left;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.tab_planetas, tr, td, th{
+    border: 2px solid var(--black);
+    border-collapse: collapse;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+.tab_planetas th{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+table {
+    padding-top: 10rem;
+    margin: 0.5rem;
+}
+
+/*Formulario*/
+
+a, input{
+    display: block;
+    font-size: 2rem;
+    width: 725px;
+}
+
+form{
+    padding-top: 1.5rem;
+}
+
+.adicionar{
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    margin-left: 1rem;
+}
+
+.adicionar div{
+    display: flex;
+    justify-content: right;
+    padding-bottom:2rem ;
+}
+
+.adicionar div label{
+    font-size: 2rem;
+    display: flex;
+    width: 200px;
+}
+
+
+.adicionar div button{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--white);
+    width: 200px;
+
+}
